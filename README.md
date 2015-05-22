@@ -4,10 +4,10 @@ Type to filter list JQuery plugin
 ##Example Usage
 
 ### Function
-Filters a list with the entered keyword. It searches through the a-tag given text.
+Filters a list with the entered keyword. It searches through the `<a>`tag given text.
 
 ### HTML
-One input-sfield, one ul-tag and as many li-tags as you wish. A container to wrap everything up.
+One <input> field, one <ul> tag and as many <li><a>text</a></li> tags as you wish. A container to wrap everything up.
 
     <div class="typeAndFilter">
         <div>
