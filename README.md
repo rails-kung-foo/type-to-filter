@@ -6,6 +6,9 @@ Type to filter list JQuery plugin
 ### Function
 Filters a list with the entered keyword. It searches through the `<a>`tag given text.
 
+### Demo
+Downdload this repo and doubleclick on index.html.
+
 ### HTML
 One `<input>` field, one `<ul>` tag and as many `<li><a>text</a></li>` tags as you wish. A container to wrap everything up.
 
