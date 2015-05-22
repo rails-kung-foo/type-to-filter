@@ -2,7 +2,7 @@ Type to filter list JQuery plugin
 ======
 
 ##Example Usage
-___
+
 ### Function
 Filters a list with the entered keyword. It searches through the a-tag given text.
 
