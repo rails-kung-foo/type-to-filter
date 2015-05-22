@@ -49,4 +49,5 @@ The no result message has the class `noResults`.
     <li class="noResults">Message</li>
 
 ### Installation
-Download the file and add to your project.
+Download the file and add to your project. 
+jquery.typeToFilter.js or jquery.typeToFilter.min.js
