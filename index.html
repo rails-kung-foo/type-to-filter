@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Type to filer lists</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>JQuery powered list filtering</h1>
+                <p class="lead">Type to filter</p>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div id="example" class="">
+          <div class="typeToSearch left marginRight">
+            <div class="searchField">
+              <input data-origin-value="Adidas, WeSC..." value="Adidas, WeSC..." class="iconSprite inputText empty" type="text" />
+            </div>
+            <ul class="brand">
+              <li class=""><a href="/0039-italy/">0039 Italy</a></li>
+              <li class=""><a href="/10feet/">10Feet</a></li>
+              <li class=""><a href="/686/">686</a></li>
+              <li class=""><a href="/6ixty-8ight/">6ixty 8ight</a></li>
+              <li class=""><a href="/7-for-all-mankind/">7 for all mankind</a></li>
+              <li class=""><a href="/8-seasons-design/">8 seasons design</a></li>
+              <li class=""><a href="/98-86/">98-86</a></li>
+              <li class=""><a href="/au-maison/">A.U Maison</a></li>
+              <li class=""><a href="/aaiko/">Aaiko</a></li>
+              <li class=""><a href="/aalm/">AALM</a></li>
+              <li class=""><a href="/abaco/">Abaco</a></li>
+              <li class=""><a href="/absorba/">ABSORBA</a></li>
+              <li class=""><a href="/accatino/">Accatino</a></li>
+              <li class=""><a href="/adax/">Adax</a></li>
+              <li class=""><a href="/adelheid/">Adelheid</a></li>
+              <li class=""><a href="/adhoc/">AdHoc</a></li>
+              <li class=""><a href="/adidas/">adidas</a></li>
+              <li class=""><a href="/taylormade-adidas-golf/">adidas Golf</a></li>
+              <li class=""><a href="/adidas-originals/">adidas Originals</a></li>
+              <li class=""><a href="/adidas-performance/">adidas Performance</a></li>
+              <li class=""><a href="/united-nude/">United Nude</a></li>
+              <li class=""><a href="/versarce/">Versarce</a></li>
+              <li class=""><a href="/wesc/">WeSC</a></li>
+              <li class=""><a href="/xyxyxy/">xyxyx</a></li>
+              <li class=""><a href="/yummie-tummie/">Yummie Tummie</li>
+              <li class=""><a href="/zoo-york/">Zoo York</a></li>
+              <li class=""><a href="/donkey-products/">Donkey Products</a></li>
+              <li class=""><a href="/dragon-sport/">Dragon Alliance</a></li>
+              <li class=""><a href="/drescher/">drescher</a></li>
+              <li class=""><a href="/drink-beer-save-water/">Drink Beer Save Water</a></li>
+              <li class=""><a href="/drmtm/">DRMTM</a></li>
+              <li class=""><a href="/drunknmunky/">Drunknmunky</a></li>
+              <li class=""><a href="/dry-lake/">Dry Lake</a></li>
+              <li class=""><a href="/duca-del-cosma/">Duca Del Cosma</a></li>
+              <li class=""><a href="/duck-and-cover/">Duck and Cover</a></li>
+              <li class=""><a href="/ducky-beau/">Ducky Beau</a></li>
+              <li class=""><a href="/duffs/">Duffs</a></li>
+              <li class=""><a href="/dumond/">Dumond</a></li>
+              <li class=""><a href="/dunderdon/">Dunderdon</a></li>
+              <li class=""><a href="/dune/">Dune</a></li>
+              <li class=""><a href="/dunlop/">Dunlop</a></li>
+              <li class=""><a href="/dunnas/">Dunnas</a></li>
+              <li class=""><a href="/dvs/">DVS</a></li>
+              <li class=""><a href="/dwell-studio/">Dwell Studio</a></li>
+              <li class=""><a href="/e-and-o/">E&amp;O</a></li>
+              <li class=""><a href="/eagle-products/">Eagle Products</a></li>
+              <li class=""><a href="/ean-13/">EAN 13</a></li>
+              <li class=""><a href="/eastpak/">Eastpak</a></li>
+              <li class=""><a href="/easy-peasy/">Easy Peasy</a></li>
+              <li class=""><a href="/eat-ants-by-sanetta/">Eat ants by Sanetta</a></li>
+              <li class=""><a href="/ebony-ivory/">Ebony &amp; Ivory</a></li>
+              <li class=""><a href="/ebound/">Ebound</a></li>
+              <li class=""><a href="/ecco/">ecco</a></li>
+              <li class=""><a href="/ecko/">ECKO</a></li>
+              <li class=""><a href="/ecko-unltd/">ecko unltd.</a></li>
+              <li class=""><a href="/edc-by-esprit/">edc by Esprit</a></li>
+              <li class=""><a href="/eddy-merckx/">Eddy Merckx</a></li>
+              <li class=""><a href="/eden-shoes/">Eden</a></li>
+              <li class=""><a href="/edith-ella/">Edith&amp;Ella</a></li>
+              <li class=""><a href="/eider/">Eider</a></li>
+              <li class=""><a href="/eisbaer/">Eisbär</a></li>
+              <li class=""><a href="/elbsand/">Elbsand</a></li>
+              <li class=""><a href="/el-campero/">El Campero</a></li>
+              <li class=""><a href="/elegante/">Elegante</a></li>
+              <li class=""><a href="/element/">Element</a></li>
+              <li class=""><a href="/eleven-paris/">Eleven Paris</a></li>
+              <li class=""><a href="/elia-maurizi/">Elia Maurizi</a></li>
+              <li class=""><a href="/ella-moss/">Ella Moss</a></li>
+              <li class=""><a href="/elle/">ELLE</a></li>
+              <li class=""><a href="/el-naturalista/">El Naturalista</a></li>
+              <li class=""><a href="/elvine/">Elvine</a></li>
+              <li class=""><a href="/emerica/">Emerica</a></li>
+              <li class=""><a href="/emma-go/">Emma Go</a></li>
+              <li class=""><a href="/emmedieci/">Emmeci</a></li>
+              <li class=""><a href="/emoi/">Emoi</a></li>
+              <li class=""><a href="/emoi-plus/">Emoi en Plus</a></li>
+              <li class=""><a href="/energie/">Energie</a></li>
+              <li class=""><a href="/en-dry-sif/">Én Gry &amp; Sif</a></li>
+              <li class=""><a href="/entertainbag/">Entertainbag</a></li>
+              <li class=""><a href="/erfurt/">Erfurt</a></li>
+              <li class=""><a href="/f-payal/">F.Payal</a></li>
+              <li class=""><a href="/fab/">Fab</a></li>
+              <li class=""><a href="/fabrizio/">Fabrizio</a></li>
+              <li class=""><a href="/faconnable-jeans/">Façonnable</a></li>
+              <li class=""><a href="/fairground/">Fairground</a></li>
+              <li class=""><a href="/fairly/">Fairly</a></li>
+              <li class=""><a href="/falke/">Falke</a></li>
+              <li class=""><a href="/famous-stars-straps/">Famous Stars &amp; Straps</a></li>
+              <li class=""><a href="/farah/">Farah</a></li>
+              <li class=""><a href="/farah-1920/">Farah 1920</a></li>
+              <li class=""><a href="/farah-vintage/">Farah Vintage</a></li>
+              <li class=""><a href="/farhi-by-nicole-farhi/">Farhi by Nicole Farhi</a></li>
+              <li class=""><a href="/fausta-moretti/">Fausta Moretti</a></li>
+              <li class=""><a href="/feiyue/">Feiyue</a></li>
+              <li class=""><a href="/felmini/">Felmini</a></li>
+              <li class=""><a href="/fenchurch/">Fenchurch</a></li>
+              <li class=""><a href="/fersengold/">Fersengold</a></li>
+              <li class=""><a href="/feud-london/">Feud London</a></li>
+              <li class=""><a href="/fever-london/">Fever London</a></li>
+              <li class=""><a href="/fidelity-boston/">Fidelity</a></li>
+              <li class=""><a href="/fila/">Fila</a></li>
+              <li class=""><a href="/filippa-k/">Filippa K</a></li>
+              <li class=""><a href="/finders-keepers/">Finders Keepers</a></li>
+              <li class=""><a href="/finkid/">Finkid</a></li>
+              <li class=""><a href="/fiona-mcguinness/">Fiona McGuinness</a></li>
+              <li class=""><a href="/fire-ice/">Fire + Ice</a></li>
+              <li class=""><a href="/firetrap/">Firetrap</a></li>
+              <li class=""><a href="/fischer/">Fischer</a></li>
+              <li class=""><a href="/fish-n-chips/">Fish 'N' Chips</a></li>
+              <li class=""><a href="/five-seasons/">Five Seasons</a></li>
+              <li class=""><a href="/fjaellraeven/">Fjällräven</a></li>
+              <li class=""><a href="/flip-flop/">flip*flop</a></li>
+              <li class=""><a href="/fly-london/">Fly London</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./jquery.typeToFilter.min.js"></script>
+    <script type="text/javascript">
+      $('.typeToSearch').typeToFilter();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+#example ul {
+  min-height: 79px;
+  max-height: 160px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+#example ul, .searchField input {
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+#example a {
+  display: block;
+  padding: 2px 1px 0 5px;
+  color: black;
+}
+
+#example a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+.typeToSearch {
+  width: 200px;
+}
+
+.searchField {
+  margin-bottom: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.marginRight {
+  margin-right: 10px;
+}
