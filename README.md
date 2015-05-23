@@ -6,7 +6,7 @@ Type to filter list JQuery plugin
 ### Update
 
 23.5.2015
-  - The letter for the filtered results will be displayed in bold.
+  - The letters for the filtered results will be displayed in bold.
 
 ### Function
 Filters a list with the entered keyword. It searches through the `<a>`tag given text.
