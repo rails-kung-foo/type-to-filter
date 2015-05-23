@@ -3,11 +3,16 @@ Type to filter list JQuery plugin
 
 ##Example Usage
 
+### Update
+
+23.5.2015
+  - The letter for the filtered results will be displayed in bold.
+
 ### Function
 Filters a list with the entered keyword. It searches through the `<a>`tag given text.
 
 ### Demo
-Downdload this repo and doubleclick on index.html.
+Downdload this repo and double click on index.html.
 
 ### HTML
 One `<input>` field, one `<ul>` tag and as many `<li><a>text</a></li>` tags as you wish. A container to wrap everything up.
@@ -49,4 +54,4 @@ The no result message has the class `noResults`.
     <li class="noResults">Message</li>
 
 ### Installation
-Download the file jquery.typeToFilter.js (or minified version) and add to your project. 
+Download the file jquery.typeToFilter.js (or minified version) and add to your project.

@@ -183,6 +183,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="./jquery.typeToFilter.min.js"></script>
     <script type="text/javascript">
+      var clone = $('.typeToSearch').clone()
+        .removeClass('typeToSearch')
+        .addClass('typeToSearchOffMsg');
+      $('#example').append(clone);
+      clone.typeToFilter({
+        zeroResultMessage: false
+      });
       $('.typeToSearch').typeToFilter();
     </script>
 </body>
